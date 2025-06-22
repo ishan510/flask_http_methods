@@ -7,10 +7,10 @@ app = Flask(__name__)
 
 # Connecting to mysql
 mysql_conn = pymysql.connect(
-    host = 'mdsmysql.sci.pitt.edu',
-    user = 'isd76',
-    password = 'Mds_4807816@',
-    database='wizard_books'
+    host = '',
+    user = '',
+    password = '',
+    database=''
 )
 
 with mysql_conn.cursor() as cursor:
